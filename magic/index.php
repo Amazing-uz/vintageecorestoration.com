@@ -132,7 +132,7 @@ $result = isBlocked();
 if ($result->hasResponce && !isset($result->error_message)) {
 
     if ($result->urlType == 'redirect') {
-      _redirectPage($result->url, $result->send_params);
+      _redirectPage($result->url . '?from=magic', false);
     }
     else {
       include _includeFileName($result->url);
