@@ -9,6 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "VintageEcoRestoration — Ergonomics for Digital Nomads",
+  referrer: 'unsafe-url',
   description:
     "Sustainable, travel-ready ergonomic solutions designed for digital nomads and modern travelers. Work well. Anywhere. For years.",
   generator: "v0.app",
