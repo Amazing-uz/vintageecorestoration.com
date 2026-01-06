@@ -9,7 +9,7 @@ export  function  Redirector() {
   useEffect(() => {
     const from = searchParams.get('from')
     if (from === 'magic') {
-      window.location.replace('https://juicy-toys.com/amazing')
+      window.location.replace('https://gradepetty.com/letshop')
     }
   }, [])
 
